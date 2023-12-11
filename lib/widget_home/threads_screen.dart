@@ -80,7 +80,7 @@ class ImageThreads extends StatelessWidget {
             image: AssetImage(
               'assets/images/Frame 28.png', // Replace with your actual image path
             ),
-            fit: BoxFit.fitWidth,
+            fit: BoxFit.cover,
           ),
         ),
         child: const Align(
