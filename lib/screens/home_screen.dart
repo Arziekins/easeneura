@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'package:ease_neura/custservice_screen.dart';
 import 'package:ease_neura/widget_home/consultation_screen.dart';
 import 'package:ease_neura/widget_home/maintenance.dart';
 import 'package:ease_neura/widget_home/threads_screen.dart';
@@ -636,7 +637,7 @@ class CustomerService extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const Maintenance(),
+              builder: (context) => CustServ(),
             ),
           );
         },
