@@ -258,11 +258,10 @@ class Threads extends StatelessWidget {
       top: 0,
       child: InkWell(
         onTap: () {
-          // Navigasi ke halaman Maintenance
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const ScreenThreads(),
+              builder: (context) => ThreadsScreen(),
             ),
           );
         },
